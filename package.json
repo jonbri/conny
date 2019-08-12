@@ -1,19 +1,29 @@
 {
   "name": "conny",
-  "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
+  "version": "0.0.2",
+  "description": "Utility for converting between file formats",
+  "bin": "./index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint *.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jonbri/connie.git"
+    "url": "git+https://github.com/jonbri/conny.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": {
+    "name": "Jonathan Brink",
+    "email": "jonathandavidbrink@gmail.com"
+  },
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jonbri/connie/issues"
+    "url": "https://github.com/jonbri/conny/issues"
   },
-  "homepage": "https://github.com/jonbri/connie#readme"
+  "homepage": "https://github.com/jonbri/conny#readme",
+  "dependencies": {
+    "node-getopt": "^0.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^6.1.0"
+  }
 }
